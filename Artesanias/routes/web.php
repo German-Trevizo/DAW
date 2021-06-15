@@ -14,5 +14,25 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('hola');
+});
+
+
+//podemos pasar varias parametros con with a la direccion de la ruta 
+// atravez del metodo post
+Route::get('/contacto', function () {
+    $contacto = "German Trevizo";
+    $valores = 10;
+    $color = "#ccc";
+    return view('contacto')
+        ->with('nombre', $contacto)
+        ->with('valor', $valores)
+        ->with('fondo', $color);
+});
+
+
+Route::get('/producto/{id}/{nombre}', function ($id, $nombre) {
+    return view('verproducto')
+        ->with('id', $id)
+        ->with('nombre', $nombre);
 });
