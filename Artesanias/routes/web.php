@@ -36,3 +36,13 @@ Route::get('/producto/{id}/{nombre}', function ($id, $nombre) {
         ->with('id', $id)
         ->with('nombre', $nombre);
 });
+
+// hacemos la ruta para el adminstrativo y los layouts
+
+Route::get('/admin', function () {
+    return view('admin.index');
+});
+
+Route::get('/admin/productos', function () {
+    return view('admin.verproducto');
+});
