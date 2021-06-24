@@ -90,11 +90,11 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-8 cuadro" style="background-color: red">a</div>
+            <div class="col-8 cuadro" style="background-color: rgba(17, 214, 228, 0.534);">a</div>
             <div class="col-4 cuadro">a</div>
         </div>
         <div class="row">
-            <div class="col cuadro" style="background-color: red">a</div>
+            <div class="col cuadro" style="background-color: rgba(17, 214, 228, 0.534);">a</div>
             <div class="col-4 cuadro">a</div>
             <div class="col-4 cuadro">a</div>
             <div class="col cuadro">a</div>

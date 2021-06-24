@@ -40,9 +40,9 @@
 
         @include('admin.layouts.header')
 
-      
         @include('admin.layouts.aside')
         <!-- Content Wrapper. Contains page content -->
+
         <div class="content-wrapper">
             @yield('contenido')
         </div>

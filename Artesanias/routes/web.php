@@ -43,6 +43,16 @@ Route::get('/admin', function () {
     return view('admin.index');
 });
 
+Route::get('/adminis', function () {
+    return view('admin.layouts.main');
+});
+
 Route::get('/admin/productos', function () {
     return view('admin.verproducto');
+});
+
+//practica de bootstrap 23/03/21
+
+Route::get('/practica', function () {
+    return view('practica');
 });

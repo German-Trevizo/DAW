@@ -1,0 +1,67 @@
+.grid1{
+    display: flexbox;
+}
+.grid2{
+    display: none;
+}
+.cero{
+    color: white;
+    font-size: 100px;
+}
+
+.uno{
+    height: 600px;
+    color: white;
+
+}
+
+.row .col{
+    display: flex;
+    margin: 5px;
+}
+
+
+
+.cuadro{
+    background-color: rgba(17, 214, 228, 0.534);
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+}
+
+.cuadro1{
+    background-color: rgba(17, 214, 228, 0.534);
+    align-items: center;
+    justify-content: center;
+}
+
+.cuadro2{
+    display: flex;
+    margin: 5px;
+    background-color: rgba(17, 214, 228, 0.534);
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuadro3{
+    display: flex;
+    margin: 5px;
+    background-color: rgba(17, 214, 228, 0.534);
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.row > .cuadro4{
+    display: flex;
+    margin: 30px;
+    background-color: rgba(17, 214, 228, 0.534);
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
